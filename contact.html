@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    
+    <nav>
+        <a href="index">Bio</a> ♪
+        <a href="gallery">Gallery</a>
+    </nav>
+    <h1>Contact Me!</h1>
+    <p>Just fill out the form below!</p>
+    <form>
+        <fieldset>
+            <legend>Your Info and Message</legend>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Your Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="message">Your Message:</label><br>
+            <textarea name="message" rows="10" columns="50">Type your message here!
+            </textarea><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
 </body>
 </html>
