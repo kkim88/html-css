@@ -1,3 +1,5 @@
+/* Universal CSS for all pages */
+
 html{
     vertical-align: baseline;
     font-weight: inherit;
@@ -39,17 +41,6 @@ h2{
     font-size: 100%;
 }
 
-header{
-    background-color: #e6e6fa;
-    font-family: "Helvectica", sans-serif;
-    font-size: 2em;
-    text-align: center;
-}
-
-ol{
-    font-family: "Helvectica", sans-serif;
-}
-
 a:link{
     color: #000000
 }
@@ -57,6 +48,8 @@ a:link{
 a:visited{
     color: #000000
 }
+
+/* Form CSS */
 
 input[type=text]{
     width: 100%;
@@ -81,10 +74,12 @@ input[type=submit]{
     border-radius: 4px;
 }
 
+/* Gallery CSS */
+
 div.gallery{
     margin: 5px;
     border: 2 px solid #000000;
-    float: left;
+    float: center;
     width: 200px;
 }
 
